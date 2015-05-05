@@ -1,0 +1,114 @@
+body {
+	margin: 0 auto;
+	font-family: serif;
+}
+
+header {
+	width: 100%;
+	height: 200px;
+}
+
+header > img {
+	display: inline-block;
+	height: 200px;
+	width: 100%;
+}
+
+/**********************
+Column 1 styling
+**********************/
+
+.logo {
+	position: relative;
+	width: 15%;
+	left: 12%;
+	top: -50px;
+}
+
+.logo > img {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	border: 2px solid white;
+}
+
+/**********************
+Column 2 styling
+**********************/
+
+.content {
+	position: relative;
+	width: 50%;
+	left: 30%;
+	top: -17em;
+}
+
+.content h1 {
+	font-size: 2.7em;
+}
+
+.content h6 {
+	margin-top: 1.5em;
+	font-style: italic;
+}
+
+.content img {
+	width: 80%;
+	margin-top: 1.5em;
+}
+
+/**********************
+Column 3 styling
+**********************/
+
+.pop-up {
+	position: relative;
+	top: -27em;
+	float: right;
+	width: 25%;
+}
+
+.headline {
+	border: 1px solid lightgray;
+	padding: .5em;
+}
+
+.pop-up .fa-times {
+	float: right;
+	position: relative;
+	top: -1em;
+}
+
+.pop-up img {
+	position: relative;
+	top: 1em;
+	height: 15%;
+	width: 15%;
+}
+
+.post-info {
+	border: 1px solid lightgray;
+	padding: .2em;
+}
+
+/*.post-info img, .post-info p, .post-info button {
+	display: inline-block;
+}*/
+
+.post-info p {
+	position: relative;
+	right: -3.5em;
+	top: -1.7em;
+}
+
+button {
+	float: right;
+	position: relative;
+	right: .5em;
+	top: -5em;
+	padding: .7em;
+	border: none;
+	border-radius: 5px;
+	background-color: #3b5998;
+	color: white;
+}
